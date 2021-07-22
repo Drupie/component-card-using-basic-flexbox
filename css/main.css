@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  background-color: #19a2ae;
+}
+main {
+  width: 400px;
+  margin: 200px auto;
+  z-index: 5000;
+}
+.image {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+.image img {
+  width: 90px;
+  height: 90px;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+}
+.banner {
+  width: 100%;
+  height: 100px;
+  background-color: #21afbb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.dates {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.dates span {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-top: 5px;
+}
+.social {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 2000;
+}
+.social p {
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.family {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.widget1 {
+  width: 750px;
+  height: 750px;
+  background-color: #20aeb9;
+  position: absolute;
+  top: -200px;
+  left: -100px;
+  border-radius: 50%;
+}
+.widget2 {
+  width: 750px;
+  height: 750px;
+  background-color: #20aeb9;
+  position: absolute;
+  top: 45%;
+  left: 650px;
+  border-radius: 50%;
+  z-index: -10000;
+}
